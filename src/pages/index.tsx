@@ -1,3 +1,5 @@
+import Button from "@material-ui/core/Button"
+import TextField from "@material-ui/core/TextField"
 import Typography from "@material-ui/core/Typography"
 
 const Home = () => {
@@ -8,6 +10,21 @@ const Home = () => {
       <Typography color="error">Lets Start</Typography>
       <Typography color="textPrimary">Lets Start</Typography>
       <Typography color="textSecondary">Lets Start</Typography>
+      <Button>Default</Button>
+      <Button color="primary">Primary</Button>
+      <Button color="secondary">Secondary</Button>
+      <Button disabled>Disabled</Button>
+      <Button href="#text-buttons" color="primary">Link</Button>
+      <Button variant="outlined">Default</Button>
+      <Button variant="outlined" color="primary">Primary</Button>
+      <Button variant="outlined" color="secondary">Secondary</Button>
+      <Button variant="outlined" disabled>Disabled</Button>
+      <Button variant="outlined" color="primary" href="#outlined-buttons">Link</Button>
+      <form noValidate autoComplete="off">
+        <TextField id="standard-basic" label="Standard" />
+        <TextField id="filled-basic" label="Filled" variant="filled" />
+        <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+      </form>
     </>
   )
 }
