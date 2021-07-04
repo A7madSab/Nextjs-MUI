@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 import Button from "@material-ui/core/Button"
 import TextField from "@material-ui/core/TextField"
-=======
-import Image from "next/image"
->>>>>>> e19c3b566a8776676639b38cd8ace2ca79bc1d34
 import Typography from "@material-ui/core/Typography"
 
 const Home = () => {
