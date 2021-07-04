@@ -4,8 +4,8 @@ import Head from "next/head"
 
 import { ThemeProvider } from "@material-ui/core/styles"
 import CssBaseline from "@material-ui/core/CssBaseline"
-import theme from "../theme"
-import type { AppProps } from 'next/app'
+import theme from "src/theme"
+import type { AppProps } from "next/app"
 
 function MyApp({ Component, pageProps }: AppProps) {
 
